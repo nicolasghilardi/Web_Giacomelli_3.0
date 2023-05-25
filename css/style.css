@@ -16,12 +16,13 @@ html{
     font-size: 62.5%;
     margin: 0;
     padding: 0;
+
 }
 header{
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    display: flex;
     /* flex-direction: column; */
-    justify-content:space-between;
+    /* justify-content:space-between; */
     width: 100vw;
     height: 40px;
     min-width: 320px;
@@ -40,16 +41,25 @@ header{
 } */
 .menu{
 
-    width: 25px;
-    margin-top: 0px;
-    margin-left:5px;
+    width: 22px;
+    height: 32px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-left:3px;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid var(--principal-color);
     
+}
+.menu:hover{
+    background-color:darkgrey;
 }
 .logo{
     
-    margin-top: 5px;
+    margin: auto;
     width: 30px;
     height: 30px;
+    
 }
 ul{
     display: none;
@@ -60,9 +70,18 @@ ul{
     flex-wrap: wrap;
 }
 .c1{
+    display: flex;
     width: 100vw;
     height: 100vh;
     background-color: #4E4E4E;
+}
+.c1 div{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.c1 h1{
+    border-bottom: 3px solid #000000;
 }
 .c2, .c3{
     width: 50%;
