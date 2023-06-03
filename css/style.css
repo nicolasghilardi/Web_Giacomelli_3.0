@@ -136,7 +136,7 @@ ul{
 .c3{
 
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     padding: 15px;
     color: var(--principal-color);
     text-align: center;
@@ -151,14 +151,14 @@ ul{
 .c4{
     background-color: var(--principal-color);
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     padding: 15px;
     color: var(--white);
     text-align: center;
 }
 .c4 img{
     width: 100%;
-    height: 150px;
+    height: 120px;
 }
 .c4 p{
     font-size: 1.23rem;
@@ -250,6 +250,7 @@ ul{
 }
 .c7{
     background-color: var(--principal-color);
+    padding-bottom: 30px;
 }
 .title-contacto{
     margin: auto;
@@ -294,6 +295,50 @@ ul{
     border-bottom: 2px solid var(--principal-color);
     border-radius: 3px;
     font-size: 1.3rem;
+}
+.page-footer{
+    width: 100%;
+    height: 25vh;
+    background-color: var(--principal-color);
+    color: var(--white);
+    padding: 0 30px;
+}
+.icons{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.icons-footer{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.icons-footer:hover{
+    width: 25px;
+    height: 25px;
+}
+.direction{
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 3px solid var(--white);
+}
+.copyright{
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+.copyright a{
+    color: var(--white);
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: red;
 }
 
 
