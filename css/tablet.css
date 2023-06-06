@@ -1,0 +1,52 @@
+.c1 img{
+    max-width: 230px;
+}
+.c1-fabricacion img{
+    max-width: 230px;
+}
+.c1-mantenimiento img{
+    max-width: 230px;
+}
+.c1-montaje img{
+    max-width: 230px;
+}
+.c1-mecanizados img{
+    max-width: 230px;
+}
+.c2-historia img{
+    max-width: 440px;
+}
+.c2-historia p{
+    font-size: 1.5rem;
+}
+.c3 p{
+    font-size: 1.5rem;
+}
+.c4 p{
+   font-size: 1.5rem;
+}
+.c5-service-container{
+    display: grid;
+    margin: auto;
+    justify-items: center;
+    grid-template-columns: repeat(2, 240px)
+    /* grid-template-columns: repeat(auto-fill, 320px);
+    gap: 26px;
+    justify-items: center;
+    place-content: center; */
+
+}
+.c2-fabricacion figure img{
+    max-width: 300px;
+}
+.c5-service-container-other{
+    display: grid;
+    margin: auto;
+    justify-items: center;
+    grid-template-columns: repeat(2, 240px)
+    /* grid-template-columns: repeat(auto-fill, 320px);
+    gap: 26px;
+    justify-items: center;
+    place-content: center; */
+
+}

@@ -1,26 +1,36 @@
-.c3 img{
- width: 80%;
- height: 150px;
-}
-.c3 h1{
-    font-size: 3rem;
-}
-.c3 p{
-    font-size: 1.5rem;
-}
-.c4 img{
-    width: 80%;
-    height: 140px;
-}
-.c4 h1{
-    font-size: 3rem;
-}
-.c4 p{
-   font-size: 1.5rem;
+.c2-historia img{
+    max-width: 440px;
 }
 .c2-historia h1{
     font-size: 3rem;
 }
 .c2-historia p{
-    font-size: 1.6rem;
+    font-size: 1.35rem;
+}
+.c3 img{
+ 
+ max-width: 440px;
+}
+.c3 h1{
+    font-size: 3rem;
+}
+.c3 p{
+    font-size: 1.25rem;
+}
+.c4 img{
+    max-width: 440px;
+}
+.c4 h1{
+    font-size: 3rem;
+}
+.c4 p{
+   font-size: 1.25rem;
+}
+.c5-service-container{
+    
+    grid-template-columns: repeat(1, 240px);
+
+}
+.contacto{
+    max-width: 500px;
 }

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricación de Maquinas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/smarphone.css" media="screen and (min-width: 400px)">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 800px)">
+</head>
+<body>
+    <header class="menu-header">
+      <a href="./index.html" class="logo">
+            <img src="./assett/imagenes/Logo_Azul_nav.png" alt="logo" class="logo">
+      </a>
+            <ul>
+              <!-- <li>
+                <a href="#c2">Quienes Somos?</a>
+                </li>
+              <li>
+                <a href="#servicios">Servicios</a>
+                </li>
+              <li>
+                <a href="#clientes">Nuestros Clientes</a>
+                </li>-->
+              <li> 
+                <a href="#form-contact">Contactos</a>
+                </li>
+            </ul>
+    </header>
+    <main class="container">
+        <div class="c1-fabricacion">
+            <div>
+              <img src="./assett/imagenes/logoazul.svg" alt="Logo Giacomelli">
+              <h1>FABRICACIÓN DE MAQUINARIA</h1>
+            </div>
+          </div>
+        <div class="c2-fabricacion">
+            <h1>FABRICACIÓN DE MAQUINARIA, DISEÑO E IMPLEMENTACIÓN</h1>
+            <p>Fabricamos una gran variedad de máquinas propias, pero también fabricamos maquinas a medidda de acuerdo a la necesidad de nuestros clientes, encargandonos del diseño, implementación y puesta en marcha.</p>
+            <h2>Nuestras Máquinas:</h2>
+            <div>
+            <ul class="maquinas">
+                <li>Despaletizadora de Botella</li>
+                <li>Horno tostador giratorio</li>
+                <li>Capsula Manual y/o con pie</li>
+                <li>Elevador montacargas</li>
+                <li>Transportes</li>
+                <li>Volcador de Bins</li>
+            </ul>
+        </div>
+        <figure>
+          <img src="./assett/imagenes/fabricacion.jpg" alt="torno">
+        </figure>
+        </div>
+        <div class="title-servicios" id="servicios">
+            <h1> OTROS SERVICIOS</h1>
+            </div>
+            <div class="c5-service-container-other">
+              
+              <div class="service">
+                <img src="./assett/imagenes/mantenimiento.jpg" alt="" class="service-img">
+                <div class="service-info">
+                  <div>
+                    <h2>Mantenimiento Industrial</h2>
+                    <p>Brindamos soluciones integrales a la necesidad de nuestros clientes mediante mantenimientos preventivos y/o correctivos</p>
+                  </div>
+                  <figure>
+                    <a href="./mantenimiento.html" target="_blank">
+                    <img src="./assett/iconos/boton-mas.png" alt="">
+                    </a>
+                  </figure>
+                </div>
+              </div>
+              <div class="service">
+                <img src="./assett/imagenes/montaje.jpg" alt="" class="service-img">
+                <div class="service-info">
+                  <div>
+                    <h2>Montaje Lineas de Producción</h2>
+                    <p>Realizamos la lógistica, colocación de maquinaria en lugar y acoplamiento de las mismas</p>
+                  </div>
+                  <figure>
+                    <a href="./montaje.html" target="_blank">
+                    <img src="./assett/iconos/boton-mas.png" alt="">
+                    </a>
+                  </figure>
+                </div>
+              </div>
+              <div class="service">
+                <img src="./assett/imagenes/mecanizados.jpg" alt="" class="service-img">
+                <div class="service-info">
+                  <div>
+                  <h2>Mecanizados y Metalúrgica Industrial</h2>
+                  <p>Realizamos todo tipo de piezas mecanizadas y grandes estructuras metalicas</p>
+                </div>
+                <figure>
+                  <a href="./mecanizados.html" target="_blank">
+                  <img src="./assett/iconos/boton-mas.png" alt="">
+                  </a>
+                </figure>
+                </div>
+              </div>
+            </div>
+            <div class="c7" id="form-contact">
+                <div>
+                  <h1 class="title-contacto">Contacto</h1>
+                </div>
+                <div class="contacto">
+                  <form action="contacto.php" method="post" class="form-contact">
+                    <label for="name">Nombre y Apellido</label>
+                    <input type="text" name="name" placeholder="Coloque su Nombre y Apellido" pattern=[A-Z\sa-z]{3,20} required=""/>
+      
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" name="email" placeholder="Coloque su correo electrónico" required="">
+      
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" class="boton-enviar">
+                  </form>
+                </div>
+              </div>
+          </main>
+          <footer class="page-footer">
+            <ul class="icons">
+              <li><a href="" class="" target="_blank"><img src="./assett/iconos/correo-blanco.png" alt="" class="icons-footer"></a></li>
+              <li><a href="" class="" target="_blank"><img src="./assett/iconos/facebook-blanco.png" alt="" class="icons-footer"></a></li>
+              <li><a href="" class="" target="_blank"><img src="./assett/iconos/instagram-blanco.png" alt="" class="icons-footer"></a></li>
+              <li><a href="" class="" target="_blank"><img src="./assett/iconos/linkedin-blanco.png" alt="" class="icons-footer"></a></li>
+            </ul>
+            <p class="direction">Dirección: Río Salado 5916, Jesús Nazareno, Guaymallen, Mendoza, Argentina</p>
+            <ul class="copyright">
+              <li>&copy; Untitled. All rights reserved.</li>
+              <li>Design: <a href="www.nicolasghilardi.com.ar">Nicolás Ghilardi</a></li>
+            </ul>
+          </footer>
+    </main>
+</body>
+</html>

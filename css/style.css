@@ -20,7 +20,7 @@ html{
 
 }
 header{
-    position: relative;
+    position: fixed;
     display: flex;
     /* flex-direction: column; */
     /* justify-content:space-between; */
@@ -30,7 +30,7 @@ header{
     background-color:#FFFFFF;
     /* text-align: center; */
 }
-/* nav{
+ /* nav{
 
     display: flex;
     height: 40px;
@@ -82,8 +82,8 @@ ul{
 .c1 div{
     width: 90%;
     margin: auto;
-    margin-left: 10px;
-    margin-top: 80px;
+    /* margin-left: 10px; */
+    /* margin-top: 80px; */
     text-align: center;
     color: var(--white);
 }
@@ -116,9 +116,9 @@ ul{
 .c2-title{
     width: 100%;
     height: 40vh;
-    background-color: aquamarine;
+    
 }
-.c2-title img{
+.c2 img{
     width:100%;
     height: 40vh;
 }
@@ -131,7 +131,7 @@ ul{
     text-align: center;
 }
 .c2-historia p{
-    font-size: 1.36rem;
+    font-size: 1.25rem;
 }
 .c3{
 
@@ -172,7 +172,7 @@ ul{
 }
 .c5-service-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 320px);
+    grid-template-columns: repeat(1, 320px);
     gap: 26px;
     justify-items: center;
     place-content: center;
@@ -342,7 +342,7 @@ ul{
 }
 
 
-@media (min-width: 600px){
+ /* @media (min-width: 600px){
     .c5-service-container{
         display: grid;
         margin: auto;
@@ -351,8 +351,265 @@ ul{
         /* grid-template-columns: repeat(auto-fill, 320px);
         gap: 26px;
         justify-items: center;
-        place-content: center; */
+        place-content: center; 
 
     }
 
+}  */
+/* Estilos de las pestana de fabricacion */
+.c1-fabricacion{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assett/imagenes/fabricacion-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1-fabricacion div{
+    width: 90%;
+    margin: auto;
+    /* margin-left: 10px; */
+    /* margin-top: 80px; */
+    text-align: center;
+    color: var(--white);
+}
+.c1-fabricacion div img{
+    width: 50%;
+
+}
+.c1-fabricacion h1{
+    font-size: 2rem;
+    color: var(--principal-color);
+    font-weight: bold;
+}
+.c2-fabricacion{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-color);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.c2-fabricacion h1{
+    color: var(--white);
+    margin: 0px 10px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--white);
+}
+.c2-fabricacion p{
+    color: var(--white);
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.c2-fabricacion h2{
+    color: var(--white);
+    margin: 5px 15px;
+}
+.c2-fabricacion figure img{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 10px;
+    max-width: 225px;
+    
+}
+.c2-fabricacion figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.maquinas{
+    display: block;
+    margin-left: 30px;
+    color: var(--white);
+}
+.maquinas li{
+    font-size: 1.5rem;
+}
+
+.c5-service-container-other{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 26px;
+    justify-items: center;
+    place-content: center;
+
+}
+/* Estilos pastana de Mantenimiento */
+.c1-mantenimiento{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assett/imagenes/mantenimiento-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1-mantenimiento div{
+    width: 90%;
+    margin: auto;
+    /* margin-left: 10px; */
+    /* margin-top: 80px; */
+    text-align: center;
+    color: var(--white);
+}
+.c1-mantenimiento div img{
+    width: 50%;
+
+}
+.c1-mantenimiento h1{
+    font-size: 2rem;
+    color: var(--principal-color);
+    font-weight: bold;
+}
+.c2-mantenimiento{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-color);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.c2-mantenimiento h1{
+    color: var(--white);
+    margin: 0px 10px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--white);
+}
+.c2-mantenimiento p{
+    color: var(--white);
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.c2-mantenimiento h2{
+    color: var(--white);
+    margin: 5px 15px;
+}
+.c2-mantenimiento figure img{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 10px;
+    max-width: 225px;
+    
+}
+.c2-mantenimiento figure{
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Estilos pestaña Montajes */
+.c1-montaje{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assett/imagenes/montajes-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1-montaje div{
+    width: 90%;
+    margin: auto;
+    /* margin-left: 10px; */
+    /* margin-top: 80px; */
+    text-align: center;
+    color: var(--white);
+}
+.c1-montaje div img{
+    width: 50%;
+
+}
+.c1-montaje h1{
+    font-size: 2rem;
+    color: var(--principal-color);
+    font-weight: bold;
+}
+.c2-montaje{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-color);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.c2-montaje h1{
+    color: var(--white);
+    margin: 0px 10px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--white);
+}
+.c2-montaje p{
+    color: var(--white);
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.c2-montaje h2{
+    color: var(--white);
+    margin: 5px 15px;
+}
+/* Estilos Pestaña de Mecanizados */
+.c1-mecanizados{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assett/imagenes/mecanizados-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c1-mecanizados div{
+    width: 90%;
+    margin: auto;
+    /* margin-left: 10px; */
+    /* margin-top: 80px; */
+    text-align: center;
+    color: var(--white);
+}
+.c1-mecanizados div img{
+    width: 50%;
+
+}
+.c1-mecanizados h1{
+    font-size: 2rem;
+    color: var(--principal-color);
+    font-weight: bold;
+}
+.c2-mecanizados{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-color);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.c2-mecanizados h1{
+    color: var(--white);
+    margin: 0px 10px;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--white);
+}
+.c2-mecanizados p{
+    color: var(--white);
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.c2-mecanizados h2{
+    color: var(--white);
+    margin: 5px 15px;
 }
