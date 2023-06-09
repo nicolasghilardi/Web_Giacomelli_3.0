@@ -89,19 +89,21 @@ ul{
 }
 .c1 h1{
     border-bottom: 3px solid var(--principal-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .c1 div img{
     width: 50%;
 
 }
 .c1 h1{
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--principal-color);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .c1 p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--principal-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
 /* .c2, .c3{
@@ -131,7 +133,7 @@ ul{
     text-align: center;
 }
 .c2-historia p{
-    font-size: 1.25rem;
+    font-size: 1.8rem;
 }
 .c3{
 
@@ -146,7 +148,7 @@ ul{
     height: 150px;
 }
 .c3 p{
-    font-size: 1.23rem;
+    font-size: 1.8rem;
 }
 .c4{
     background-color: var(--principal-color);
@@ -161,7 +163,7 @@ ul{
     height: 120px;
 }
 .c4 p{
-    font-size: 1.23rem;
+    font-size: 1.8rem;
 }
  .title-servicios{
     margin: auto;

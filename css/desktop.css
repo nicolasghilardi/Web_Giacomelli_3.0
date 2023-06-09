@@ -45,6 +45,7 @@
 }
 .c2 p{
     padding: 2px 150px;
+    font-size: 1.9rem;
 }
 .c2-historia figure img{
     max-width: 600px;
@@ -54,6 +55,9 @@
 .c3{
     display: flex;
     /* flex-wrap: wrap; */
+}
+.c3 p{
+    font-size: 1.9rem;
 }
 .img-mision{
     width: 50%;
@@ -68,6 +72,9 @@
 }
 .c4{
     display: flex;
+}
+.c4 p{
+    font-size: 1.9rem;
 }
 .img-vision{
     order: 2;
@@ -105,4 +112,8 @@
     justify-items: center;
     place-content: center; */
 
+}
+.page-footer{
+    width: 100vw;
+    height: 120px;
 }
